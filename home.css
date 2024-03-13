@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.videologo {
+    text-align: center;
+}
+
+#submitButton {
+    background-color: transparent;                  /* Fundo transparente */
+    color: grey;                                  /* Letra cinza */
+    border: 1px solid grey;                       /* Borda cinza */
+    padding: 8px 16px;                              /* Espaçamento interno */
+    border-radius: 4px;                             /* Borda arredondada */
+    cursor: pointer;                                /* Cursor ao passar */
+}
+
+#submitButton:hover {
+    background-color: lightgrey;                  /* Fundo cinza claro ao passar o mouse */
+    color: black;                                 /* Letra preta ao passar o mouse */
+}
+.name-bar {
+    text-align: center;
+}
+
+.name-bar input[type="text"] {
+    padding: 8px;                                   /* Espaçamento interno */
+    border: 1px solid grey;                       /* Borda cinza */
+    border-radius: 4px;                             /* Borda arredondada */
+    
+}
+
+.name-bar input[type="text"]:focus {
+    outline: none;                                 /* Remover a borda de foco padrão */
+    border-color: #007bff;                       /* Mudar a cor da borda ao focar */
+}
