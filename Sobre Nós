@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio Yvone Pimentel - Sobre Nós</title>
+    <style>
+        /* Estilos CSS (opcional) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 40px;
+        }
+        form {
+            max-width: 430px;
+            margin-top: 40px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 13px;
+            margin-bottom: 15px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        p {
+            color: white;
+            font-size: 20px;
+        }
+        h2{
+            color: #007bff;
+            font-size: 40px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre o Colégio Yvone Pimentel</h1>
+        <p>O Colégio Yvone Pimentel é uma instituição de ensino comprometida com a excelência acadêmica e o desenvolvimento integral dos alunos. Nossa equipe de educadores está empenhada em proporcionar uma educação de qualidade, preparando os estudantes para os desafios do futuro.</p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <h2>Faça sua Matrícula!</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu Nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" required>
+
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Digite apenas números" required>
+
+            <button type="submit">Matricular-se</button>
+        </form>
+    </div>
+
+    <!-- Script JS (opcional) -->
+    <script>
+        // Aqui você pode adicionar lógica para processar o formulário
+        // e enviar os dados para o servidor.
+    </script>
+</body>
+</html>
