@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColegioExemplo - Ensino Médio e Fundamental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #0056b3;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .section {
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #007bff;
+            margin-top: 0;
+            font-size: 24px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo {
+            float: left;
+            margin-right: 20px;
+        }
+        .logo video {
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+        .logo video:hover {
+            transform: rotate(360deg);
+        }
+        .logo video:focus {
+            outline: none;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: calc(33.33% - 10px);
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        form {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <video src="logo.mp4" autoplay loop muted width="100" height="auto"></video>
+        </div>
+        <div>
+            <h1>ColegioExemplo</h1>
+            <p>Sua jornada educacional começa aqui!</p>
+        </div>
+    </header>
+    <div class="container">
+        <section class="section">
+            <h2>Ensino Médio</h2>
+            <p>O ensino médio no ColegioExemplo oferece duas modalidades:</p>
+            <ul>
+                <li>Ensino Médio Regular</li>
+                <li>Ensino Médio Técnico</li>
+            </ul>
+            <p>Estamos comprometidos em fornecer uma educação de qualidade que prepare os alunos para o futuro, seja no ensino superior ou no mercado de trabalho.</p>
+        </section>
+        <section class="section">
+            <h2>Ensino Fundamental</h2>
+            <p>No ensino fundamental, buscamos criar uma base sólida para o desenvolvimento acadêmico e pessoal de nossos alunos. Oferecemos:</p>
+            <ul>
+                <li>Anos Iniciais (1º ao 5º ano)</li>
+                <li>Anos Finais (6º ao 9º ano)</li>
+            </ul>
+            <p>Nossa equipe de educadores está empenhada em proporcionar um ambiente de aprendizagem acolhedor e estimulante.</p>
+        </section>
+        <section class="section">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Imagem 1">
+                <img src="image2.jpg" alt="Imagem 2">
+                <img src="image3.jpg" alt="Imagem 3">
+                <img src="image4.jpg" alt="Imagem 4">
+                <img src="image5.jpg" alt="Imagem 5">
+                <img src="image6.jpg" alt="Imagem 6">
+            </div>
+        </section>
+        <section class="section">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ColegioExemplo - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
